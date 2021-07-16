@@ -21,7 +21,7 @@ function Header() {
 
             <div className='flex items-center justify-center mr-2'>
                 <Icon name='description' size='4xl' color='blue'/>
-                <h1 className='ml-2 transition-all text-black tracking-wide'>Docs</h1>
+                <h1 className='hidden md:!inline-flex ml-2 transition-all text-black tracking-wide'>Docs</h1>
             </div>
 
             <div className='flex flex-grow items-center bg-gray-200 mx-5 text-gray-600 rounded-lg focus-within:text-gray-600 focus-within:shadow-md'>
@@ -47,7 +47,7 @@ function Header() {
                     rounded={true}
                     iconOnly={true}
                     ripple='dark'
-                    className='ml-5 md:ml-20 border-0'
+                    className='hidden md:!inline-flex ml-5 md:ml-20 border-0'
                 >
                     <Icon name='apps' size='3x1' color='gray'></Icon>
             </Button>
