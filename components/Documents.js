@@ -14,7 +14,7 @@ function Document(props){
             .collection('docs')
             .orderBy('timestamp', 'desc')
         );
-
+        
     return(
         <div className='max-w-2xl mx-auto'>
             <div className='flex justify-between items-center text-sm text-gray-700'>
@@ -33,7 +33,7 @@ function Document(props){
                     </Button>
                 </div>
             </div>
-            <div className='flex flex-col px-2'>
+            <div className='flex flex-col'>
                 {
                     snapShot?.docs.map((doc) => {
                         return(
