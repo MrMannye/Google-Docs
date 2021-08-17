@@ -16,6 +16,8 @@ export default function Home() {
       <Head>
         <title>Google Docs</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta property='og:image' content='/main.jpg' />
+        <meta property='og:description' name='description' content='Google Docs Clone' />
       </Head>
 
       {/* Header */}
